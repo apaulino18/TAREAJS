@@ -1,10 +1,12 @@
-//const prompt = require('prompt');
-prompt.start();
+const prompt = require('prompt');
+prompt.start()
 
+prompt.get(['num1','num2'], function (err, suma) {
 
+  suma = parseInt(suma.num1) + parseInt(suma.num2)
+     console.log(suma)
+});
     
-   let n1 = parseFloat(prompt('Cingresar numero 1: '));
-   let n2 = parseFloat(prompt('Cingresar numero 1: '));
-   let suma = n1 + n2;
-   document.write("La suma es: " + suma);
+   
+   
   
