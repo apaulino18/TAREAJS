@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "prompt": "^1.3.0"
+  },
+  "name": "tareajs",
+  "description": "las primeras tareas",
+  "version": "1.0.0",
+  "main": "divicible .js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaulino18/TAREAJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaulino18/TAREAJS/issues"
+  },
+  "homepage": "https://github.com/apaulino18/TAREAJS#readme"
+}
