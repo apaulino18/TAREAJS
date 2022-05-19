@@ -16,7 +16,7 @@ function salvarCliente(event) {
 
     // 2. enviar datos al API
 
-    const url = "http://localhost:3200/costumer"
+    const url = "http://localhost:3200/customers"
     const header = {
         'Content-Type': 'application/json'
     }
